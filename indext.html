@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nova AI - Chatbot</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    
+
+    <aside class="sidebar">
+
+     
+
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-sparkles"></i>
+            </div>
+
+            <span>Nova AI</span>
+        </div>
+
+
+    
+
+        <button class="new-chat-btn">
+            <i class="fa-solid fa-plus"></i>
+            <span>New Chat</span>
+        </button>
+        <div class="chat-history">
+
+            <p class="history-title">Recent Chats</p>
+
+            <div class="chat-item active">
+                <i class="fa-regular fa-message"></i>
+                <span>AI Chatbot Project</span>
+            </div>
+
+            <div class="chat-item">
+                <i class="fa-regular fa-message"></i>
+                <span>Web Development</span>
+            </div>
+
+            <div class="chat-item">
+                <i class="fa-regular fa-message"></i>
+                <span>Python Learning</span>
+            </div>
+
+            <div class="chat-item">
+                <i class="fa-regular fa-message"></i>
+                <span>Interview Preparation</span>
+            </div>
+
+        </div>
+
+
+
+        <div class="sidebar-bottom">
+
+            <button class="sidebar-btn">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </button>
+
+            <button class="sidebar-btn">
+                <i class="fa-regular fa-circle-question"></i>
+                <span>Help</span>
+            </button>
+
+            <div class="profile">
+
+                <div class="profile-avatar">
+                    R
+                </div>
+
+                <div class="profile-info">
+                    <strong>Rohit</strong>
+                    <small>Free Plan</small>
+                </div>
+
+                <i class="fa-solid fa-ellipsis"></i>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+   
+    <main class="chat-container">
+
+
+      
+
+        <header class="chat-header">
+
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="ai-info">
+
+                <div class="ai-avatar">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+
+                <div>
+                    <h3>Nova AI</h3>
+
+                    <div class="status">
+                        <span></span>
+                        Online
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="header-actions">
+
+                <button>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </button>
+
+            </div>
+
+        </header>
+
+
+       
+
+        <section class="chat-area">
+
+
+        
+
+            <div class="welcome-screen">
+
+                <div class="welcome-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <h1>How can I help you?</h1>
+
+                <p>
+                    Ask me anything. I'm here to help you
+                    learn, create and explore.
+                </p>
+
+
+                <!-- Suggestions -->
+
+                <div class="suggestions">
+
+                    <button>
+                        <i class="fa-solid fa-code"></i>
+                        <span>
+                            <strong>Write Code</strong>
+                            <small>Create a website or program</small>
+                        </span>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>
+                            <strong>Brainstorm Ideas</strong>
+                            <small>Generate creative ideas</small>
+                        </span>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>
+                            <strong>Learn Something</strong>
+                            <small>Explain any topic simply</small>
+                        </span>
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-pen"></i>
+                        <span>
+                            <strong>Write Something</strong>
+                            <small>Create content and text</small>
+                        </span>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            
+
+            <div class="messages">
+
+
+                <div class="message ai-message">
+
+                    <div class="message-avatar">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+
+                    <div class="message-content">
+
+                        <div class="message-name">
+                            Nova AI
+                        </div>
+
+                        <p>
+                            Hello! 👋 I'm Nova AI.
+                            How can I help you today?
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                
+
+                <div class="message user-message">
+
+                    <div class="message-content">
+
+                        <div class="message-name">
+                            You
+                        </div>
+
+                        <p>
+                            I want to create a modern website.
+                        </p>
+
+                    </div>
+
+                    <div class="message-avatar user-avatar">
+                        R
+                    </div>
+
+                </div>
+
+
+
+                <div class="message ai-message">
+
+                    <div class="message-avatar">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+
+                    <div class="message-content">
+
+                        <div class="message-name">
+                            Nova AI
+                        </div>
+
+                        <p>
+                            Absolutely! 🚀 We can build a
+                            modern, responsive and professional
+                            website together.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="input-section">
+
+            <div class="input-box">
+
+                <button class="attach-btn">
+                    <i class="fa-solid fa-paperclip"></i>
+                </button>
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Message Nova AI..."
+                    rows="1"
+                ></textarea>
+
+                <button class="send-btn" id="sendBtn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+
+            </div>
+
+            <p class="input-info">
+                Nova AI can make mistakes. Check important information.
+            </p>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
